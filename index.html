@@ -3,82 +3,944 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Planned Planthood: Discover tips, guides, and inspirations for gardening enthusiasts. Grow your green thumb with us!"
+    />
+
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="/Assets/CSS/css-reset.min.css" />
+
+    <!-- CUSTOM ICONS -->
+    <link rel="stylesheet" href="/Assets/CSS/custom-icons.min.css" />
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="/Assets/CSS/style.css" />
     <title>Planned Planthood</title>
   </head>
   <body>
-Planned Planthood
+    <!-- NAVBAR -->
+    <nav class="main-nav" aria-label="Page navigation">
+      <div class="nav-content max-width">
+        <a
+          class="logo"
+          href="#"
+          aria-label="Go to the Planned Planthood homepage"
+        >
+          <i class="icon-logo" aria-hidden="true"></i>
+          <div>
+            <span>Planned</span>
+            <span>Planthood</span>
+          </div>
+        </a>
 
-Hem
-Historik
-Tips
-Kontakt
+        <ul>
+          <li>
+            <a
+              href="#"
+              aria-label="Go to the homepage"
+              title="Go to the homepage"
+              >Hem</a
+            >
+          </li>
+          <li>
+            <a href="#" aria-label="View our history" title="View our history"
+              >Historik</a
+            >
+          </li>
+          <li>
+            <a href="#" aria-label="Get useful tips" title="Get useful tips"
+              >Tips</a
+            >
+          </li>
+          <li>
+            <a href="#" aria-label="Contact us" title="Contact us">Kontakt</a>
+          </li>
+        </ul>
 
-Uppskattade växter
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, corporis ipsum.
+        <div class="menu-open">
+          <i class="icon-menu-open" aria-hidden="true"></i>
+        </div>
+      </div>
+    </nav>
 
-Anmäl dig till vårt nyhetsbrev så du inte missar en utsådd!
+    <main>
+      <!-- HEADER -->
+      <header class="main-header page-spacing">
+        <div class="header-content max-width flow">
+          <h1 id="header-title">Uppskattade växter</h1>
+          <p id="header-desc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique,
+            corporis ipsum.
+          </p>
 
-Blommor
-Ätbart
-Grönska
-Gurka
-Gurka växer snabbt, är enkel att odla och ger mängder med gurkor, bara man är noga med vattning, omplantering, duschning och gödsling.
-Coolio
-2024-04-01
+          <div
+            class="img-grid"
+            aria-labelledby="header-title"
+            aria-describedby="header-desc"
+          >
+            <img
+              class="img1"
+              src="https://picsum.photos/id/17/500"
+              alt="A vibrant green plant."
+              width="500"
+              height="auto"
+            />
+            <img
+              class="img2"
+              src="https://picsum.photos/id/18/500"
+              alt="A flowering plant with purple blossoms."
+              width="500"
+              height="auto"
+            />
+            <img
+              class="img3"
+              src="https://picsum.photos/id/19/500"
+              alt="A small indoor potted plant."
+              width="500"
+              height="auto"
+            />
+            <img
+              class="img4"
+              src="https://picsum.photos/id/25/500"
+              alt="A lush tropical plant."
+              width="500"
+              height="auto"
+            />
+            <img
+              class="img5"
+              src="https://picsum.photos/id/28/500"
+              alt="A cluster of colorful garden flowers."
+              width="500"
+              height="auto"
+            />
+            <img
+              class="img6"
+              src="https://picsum.photos/id/11/500"
+              alt="A bright leafy green plant."
+              width="500"
+              height="auto"
+            />
+          </div>
+        </div>
+      </header>
 
-Solälskande
-Lättodlat
-Ätbart
-Tomat
-En perfekt grönsak att odla på balkongen eller i trädgården. Ger riklig skörd under sommaren.
-Anna Odlare
-2024-12-05
+      <!-- BANNER-1 -->
+      <section class="banner-1 page-spacing">
+        <div class="max-width banner-wrapper banner-reverse">
+          <div class="banner-content flow">
+            <h2 id="cta-form-heading">
+              Anmäl dig till vårt nyhetsbrev så du inte missar en utsådd!
+            </h2>
+            <form class="cta-form" aria-labelledby="cta-form-heading">
+              <label for="email" class="visually-hidden">Email Address</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="email@domain.com"
+                required
+                aria-required="true"
+                autocomplete="email"
+              />
+              <input class="btn" type="submit" value="Skicka" />
+            </form>
+          </div>
 
-Dekorativ
-Färgstark
-Tålig
-Blommor
-Pelargon
-En vacker och lättskött blomma som trivs både inne och ute under sommaren.
-Blomsterkalle
-2024-12-03
+          <div class="icon-bg">
+            <i class="icon-planting" aria-hidden="true"></i>
+          </div>
+        </div>
+      </section>
 
-Kryddor
-Doftande
-Solälskande
-Basilika
-En fantastisk krydda för pastarätter och sallader. Trivs bäst i ett soligt fönster.
-Krydd-Malin
-2024-12-07
+      <section class="card-section max-width page-spacing">
+        <!-- CARDS -->
+        <article
+          class="card"
+          aria-labelledby="Gurka"
+          aria-describedby="gurka-description"
+        >
+          <header class="card-header">
+            <img
+              src="https://picsum.photos/id/17/500"
+              alt="Gurka plant"
+              width="500"
+              height="auto"
+            />
+            <i class="icon-seedling-2 watermark" aria-hidden="true"></i>
+          </header>
 
-Snabbväxande
-Ätbart
-Grönska
-Sallad
-Sallad är en av de enklaste grönsakerna att odla och ger snabba resultat för färska måltider.
-Grönis
-2024-12-06
+          <div class="chip-container" aria-label="Tags">
+            <span class="chips flower" aria-label="Category: Blommor"
+              >Blommor</span
+            >
+            <span class="chips edible" aria-label="Category: Ätbart"
+              >Ätbart</span
+            >
+            <span class="chips green" aria-label="Category: Grönska"
+              >Grönska</span
+            >
+          </div>
 
-Luftfuktande
-Grönska
-Dekorativ
-Ormbunke
-En klassisk växt som passar perfekt i badrummet eller på skuggiga platser.
-Naturvännen
-2024-12-08
+          <main class="flow">
+            <h3 id="Gurka">Gurka</h3>
+            <p id="gurka-description">
+              Gurka växer snabbt, är enkel att odla och ger mängder med gurkor,
+              bara man är noga med vattning, omplantering, duschning och
+              gödsling.
+            </p>
+          </main>
 
-Våra tidigare odlingar
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ratione quia eos pariatur deserunt veritatis. Tenetur, ipsum! Iusto delectus ipsam esse pariatur rerum eveniet nostrum, dolor distinctio nam quaerat doloribus?
-Planterade plantor
+          <footer class="card-footer">
+            <img
+              class="avatar-img"
+              src="/Assets/images/avatar_26_m.png"
+              alt="Avatar image of Coolio"
+              width="200"
+              height="auto"
+            />
+            <div>
+              <strong class="avatar-name">Coolio</strong>
+              <time
+                datetime="2024-04-01"
+                aria-label="Published on April 1, 2024"
+              >
+                2024-04-01
+              </time>
+            </div>
+          </footer>
+        </article>
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, veniam ducimus aut sint atque ullam alias perspiciatis fuga. Consequuntur nesciunt ea corrupti aperiam fugit inventore ratione earum. Iure, eius molestias?
-Telefon: 020-1234567
-info@plannedplant.com
+        <article
+          class="card"
+          aria-labelledby="Tomat"
+          aria-describedby="Tomat-description"
+        >
+          <header class="card-header">
+            <img
+              src="https://picsum.photos/id/17/500"
+              alt="Tomat"
+              width="500"
+              height="auto"
+            />
+            <i class="icon-seedling-2 watermark" aria-hidden="true"></i>
+          </header>
 
-Hem
-Historik
-Tips
-Kontakt
+          <div class="chip-container" aria-label="Tags">
+            <span class="chips sunloving" aria-label="Category: Solälskande">
+              Solälskande
+            </span>
+            <span class="chips easy" aria-label="Category: Lättodlat"
+              >Lättodlat</span
+            >
+            <span class="chips edible" aria-label="Category: Ätbart"
+              >Ätbart</span
+            >
+          </div>
+
+          <main class="flow">
+            <h3 id="Tomat">Tomat</h3>
+            <p id="Tomat-description">
+              En perfekt grönsak att odla på balkongen eller i trädgården. Ger
+              riklig skörd under sommaren.
+            </p>
+          </main>
+
+          <footer class="card-footer">
+            <img
+              class="avatar-img"
+              src="/Assets/images/avatar_72_f.png"
+              alt="Avatar image of Anna Odlare"
+              width="200"
+              height="auto"
+            />
+            <div>
+              <strong class="avatar-name">Anna Odlare</strong>
+              <time
+                datetime="2024-12-05"
+                aria-label="Published on December 5, 2024"
+                >2024-12-05</time
+              >
+            </div>
+          </footer>
+        </article>
+
+        <article
+          class="card"
+          class="card"
+          aria-labelledby="Pelargon"
+          aria-describedby="Pelargon-description"
+        >
+          <header class="card-header">
+            <img
+              src="https://picsum.photos/id/17/500"
+              alt="Pelargon"
+              width="500"
+              height="auto"
+            />
+            <i class="icon-seedling-2 watermark" aria-hidden="true"></i>
+          </header>
+
+          <div class="chip-container" aria-label="Tags">
+            <span class="chips decorative" aria-label="Category: Dekorativ">
+              Dekorativ
+            </span>
+            <span class="chips colorful" aria-label="Category: Färgstark">
+              Färgstark
+            </span>
+            <span class="chips robust" aria-label="Category: Tålig">Tålig</span>
+            <span class="chips flower" aria-label="Category: Blommor"
+              >Blommor</span
+            >
+          </div>
+
+          <main class="flow">
+            <h3 id="Pelargon">Pelargon</h3>
+            <p id="Pelargon-description">
+              En vacker och lättskött blomma som trivs både inne och ute under
+              sommaren.
+            </p>
+          </main>
+
+          <footer class="card-footer">
+            <img
+              class="avatar-img"
+              src="/Assets/images/avatar_26_m.png"
+              alt="Avatar image of Blomsterkalle"
+              width="200"
+              height="auto"
+            />
+            <div>
+              <strong class="avatar-name">Blomsterkalle</strong>
+              <time
+                datetime="2024-12-05"
+                aria-label="Published on December 3, 2024"
+                >2024-12-03</time
+              >
+            </div>
+          </footer>
+        </article>
+
+        <article
+          class="card"
+          aria-labelledby="Gurka"
+          aria-describedby="gurka-description"
+        >
+          <header class="card-header">
+            <img
+              src="https://picsum.photos/id/17/500"
+              alt="Gurka plant"
+              width="500"
+              height="auto"
+            />
+            <i class="icon-seedling-2 watermark" aria-hidden="true"></i>
+          </header>
+
+          <div class="chip-container" aria-label="Tags">
+            <span class="chips flower" aria-label="Category: Blommor"
+              >Blommor</span
+            >
+            <span class="chips edible" aria-label="Category: Ätbart"
+              >Ätbart</span
+            >
+            <span class="chips green" aria-label="Category: Grönska"
+              >Grönska</span
+            >
+          </div>
+
+          <main class="flow">
+            <h3 id="Gurka">Gurka</h3>
+            <p id="gurka-description">
+              Gurka växer snabbt, är enkel att odla och ger mängder med gurkor,
+              bara man är noga med vattning, omplantering, duschning och
+              gödsling.
+            </p>
+          </main>
+
+          <footer class="card-footer">
+            <img
+              class="avatar-img"
+              src="/Assets/images/avatar_26_m.png"
+              alt="Avatar image of Coolio"
+              width="200"
+              height="auto"
+            />
+            <div>
+              <strong class="avatar-name">Coolio</strong>
+              <time
+                datetime="2024-04-01"
+                aria-label="Published on April 1, 2024"
+              >
+                2024-04-01
+              </time>
+            </div>
+          </footer>
+        </article>
+
+        <article
+          class="card"
+          aria-labelledby="Tomat"
+          aria-describedby="Tomat-description"
+        >
+          <header class="card-header">
+            <img
+              src="https://picsum.photos/id/17/500"
+              alt="Tomat"
+              width="500"
+              height="auto"
+            />
+            <i class="icon-seedling-2 watermark" aria-hidden="true"></i>
+          </header>
+
+          <div class="chip-container" aria-label="Tags">
+            <span class="chips sunloving" aria-label="Category: Solälskande">
+              Solälskande
+            </span>
+            <span class="chips easy" aria-label="Category: Lättodlat"
+              >Lättodlat</span
+            >
+            <span class="chips edible" aria-label="Category: Ätbart"
+              >Ätbart</span
+            >
+          </div>
+
+          <main class="flow">
+            <h3 id="Tomat">Tomat</h3>
+            <p id="Tomat-description">
+              En perfekt grönsak att odla på balkongen eller i trädgården. Ger
+              riklig skörd under sommaren.
+            </p>
+          </main>
+
+          <footer class="card-footer">
+            <img
+              class="avatar-img"
+              src="/Assets/images/avatar_72_f.png"
+              alt="Avatar image of Anna Odlare"
+              width="200"
+              height="auto"
+            />
+            <div>
+              <strong class="avatar-name">Anna Odlare</strong>
+              <time
+                datetime="2024-12-05"
+                aria-label="Published on December 5, 2024"
+                >2024-12-05</time
+              >
+            </div>
+          </footer>
+        </article>
+
+        <article
+          class="card"
+          class="card"
+          aria-labelledby="Pelargon"
+          aria-describedby="Pelargon-description"
+        >
+          <header class="card-header">
+            <img
+              src="https://picsum.photos/id/17/500"
+              alt="Pelargon"
+              width="500"
+              height="auto"
+            />
+            <i class="icon-seedling-2 watermark" aria-hidden="true"></i>
+          </header>
+
+          <div class="chip-container" aria-label="Tags">
+            <span class="chips decorative" aria-label="Category: Dekorativ">
+              Dekorativ
+            </span>
+            <span class="chips colorful" aria-label="Category: Färgstark">
+              Färgstark
+            </span>
+            <span class="chips robust" aria-label="Category: Tålig">Tålig</span>
+            <span class="chips flower" aria-label="Category: Blommor"
+              >Blommor</span
+            >
+          </div>
+
+          <main class="flow">
+            <h3 id="Pelargon">Pelargon</h3>
+            <p id="Pelargon-description">
+              En vacker och lättskött blomma som trivs både inne och ute under
+              sommaren.
+            </p>
+          </main>
+
+          <footer class="card-footer">
+            <img
+              class="avatar-img"
+              src="/Assets/images/avatar_26_m.png"
+              alt="Avatar image of Blomsterkalle"
+              width="200"
+              height="auto"
+            />
+            <div>
+              <strong class="avatar-name">Blomsterkalle</strong>
+              <time
+                datetime="2024-12-05"
+                aria-label="Published on December 3, 2024"
+                >2024-12-03</time
+              >
+            </div>
+          </footer>
+        </article>
+
+        <article
+          class="card"
+          aria-labelledby="Gurka"
+          aria-describedby="gurka-description"
+        >
+          <header class="card-header">
+            <img
+              src="https://picsum.photos/id/17/500"
+              alt="Gurka plant"
+              width="500"
+              height="auto"
+            />
+            <i class="icon-seedling-2 watermark" aria-hidden="true"></i>
+          </header>
+
+          <div class="chip-container" aria-label="Tags">
+            <span class="chips flower" aria-label="Category: Blommor"
+              >Blommor</span
+            >
+            <span class="chips edible" aria-label="Category: Ätbart"
+              >Ätbart</span
+            >
+            <span class="chips green" aria-label="Category: Grönska"
+              >Grönska</span
+            >
+          </div>
+
+          <main class="flow">
+            <h3 id="Gurka">Gurka</h3>
+            <p id="gurka-description">
+              Gurka växer snabbt, är enkel att odla och ger mängder med gurkor,
+              bara man är noga med vattning, omplantering, duschning och
+              gödsling.
+            </p>
+          </main>
+
+          <footer class="card-footer">
+            <img
+              class="avatar-img"
+              src="/Assets/images/avatar_26_m.png"
+              alt="Avatar image of Coolio"
+              width="200"
+              height="auto"
+            />
+            <div>
+              <strong class="avatar-name">Coolio</strong>
+              <time
+                datetime="2024-04-01"
+                aria-label="Published on April 1, 2024"
+              >
+                2024-04-01
+              </time>
+            </div>
+          </footer>
+        </article>
+
+        <article
+          class="card"
+          aria-labelledby="Tomat"
+          aria-describedby="Tomat-description"
+        >
+          <header class="card-header">
+            <img
+              src="https://picsum.photos/id/17/500"
+              alt="Tomat"
+              width="500"
+              height="auto"
+            />
+            <i class="icon-seedling-2 watermark" aria-hidden="true"></i>
+          </header>
+
+          <div class="chip-container" aria-label="Tags">
+            <span class="chips sunloving" aria-label="Category: Solälskande">
+              Solälskande
+            </span>
+            <span class="chips easy" aria-label="Category: Lättodlat"
+              >Lättodlat</span
+            >
+            <span class="chips edible" aria-label="Category: Ätbart"
+              >Ätbart</span
+            >
+          </div>
+
+          <main class="flow">
+            <h3 id="Tomat">Tomat</h3>
+            <p id="Tomat-description">
+              En perfekt grönsak att odla på balkongen eller i trädgården. Ger
+              riklig skörd under sommaren.
+            </p>
+          </main>
+
+          <footer class="card-footer">
+            <img
+              class="avatar-img"
+              src="/Assets/images/avatar_72_f.png"
+              alt="Avatar image of Anna Odlare"
+              width="200"
+              height="auto"
+            />
+            <div>
+              <strong class="avatar-name">Anna Odlare</strong>
+              <time
+                datetime="2024-12-05"
+                aria-label="Published on December 5, 2024"
+                >2024-12-05</time
+              >
+            </div>
+          </footer>
+        </article>
+
+        <article
+          class="card"
+          class="card"
+          aria-labelledby="Pelargon"
+          aria-describedby="Pelargon-description"
+        >
+          <header class="card-header">
+            <img
+              src="https://picsum.photos/id/17/500"
+              alt="Pelargon"
+              width="500"
+              height="auto"
+            />
+            <i class="icon-seedling-2 watermark" aria-hidden="true"></i>
+          </header>
+
+          <div class="chip-container" aria-label="Tags">
+            <span class="chips decorative" aria-label="Category: Dekorativ">
+              Dekorativ
+            </span>
+            <span class="chips colorful" aria-label="Category: Färgstark">
+              Färgstark
+            </span>
+            <span class="chips robust" aria-label="Category: Tålig">Tålig</span>
+            <span class="chips flower" aria-label="Category: Blommor"
+              >Blommor</span
+            >
+          </div>
+
+          <main class="flow">
+            <h3 id="Pelargon">Pelargon</h3>
+            <p id="Pelargon-description">
+              En vacker och lättskött blomma som trivs både inne och ute under
+              sommaren.
+            </p>
+          </main>
+
+          <footer class="card-footer">
+            <img
+              class="avatar-img"
+              src="/Assets/images/avatar_26_m.png"
+              alt="Avatar image of Blomsterkalle"
+              width="200"
+              height="auto"
+            />
+            <div>
+              <strong class="avatar-name">Blomsterkalle</strong>
+              <time
+                datetime="2024-12-05"
+                aria-label="Published on December 3, 2024"
+                >2024-12-03</time
+              >
+            </div>
+          </footer>
+        </article>
+
+        <article
+          class="card"
+          aria-labelledby="Gurka"
+          aria-describedby="gurka-description"
+        >
+          <header class="card-header">
+            <img
+              src="https://picsum.photos/id/17/500"
+              alt="Gurka plant"
+              width="500"
+              height="auto"
+            />
+            <i class="icon-seedling-2 watermark" aria-hidden="true"></i>
+          </header>
+
+          <div class="chip-container" aria-label="Tags">
+            <span class="chips flower" aria-label="Category: Blommor"
+              >Blommor</span
+            >
+            <span class="chips edible" aria-label="Category: Ätbart"
+              >Ätbart</span
+            >
+            <span class="chips green" aria-label="Category: Grönska"
+              >Grönska</span
+            >
+          </div>
+
+          <main class="flow">
+            <h3 id="Gurka">Gurka</h3>
+            <p id="gurka-description">
+              Gurka växer snabbt, är enkel att odla och ger mängder med gurkor,
+              bara man är noga med vattning, omplantering, duschning och
+              gödsling.
+            </p>
+          </main>
+
+          <footer class="card-footer">
+            <img
+              class="avatar-img"
+              src="/Assets/images/avatar_26_m.png"
+              alt="Avatar image of Coolio"
+              width="200"
+              height="auto"
+            />
+            <div>
+              <strong class="avatar-name">Coolio</strong>
+              <time
+                datetime="2024-04-01"
+                aria-label="Published on April 1, 2024"
+              >
+                2024-04-01
+              </time>
+            </div>
+          </footer>
+        </article>
+
+        <article
+          class="card"
+          aria-labelledby="Tomat"
+          aria-describedby="Tomat-description"
+        >
+          <header class="card-header">
+            <img
+              src="https://picsum.photos/id/17/500"
+              alt="Tomat"
+              width="500"
+              height="auto"
+            />
+            <i class="icon-seedling-2 watermark" aria-hidden="true"></i>
+          </header>
+
+          <div class="chip-container" aria-label="Tags">
+            <span class="chips sunloving" aria-label="Category: Solälskande">
+              Solälskande
+            </span>
+            <span class="chips easy" aria-label="Category: Lättodlat"
+              >Lättodlat</span
+            >
+            <span class="chips edible" aria-label="Category: Ätbart"
+              >Ätbart</span
+            >
+          </div>
+
+          <main class="flow">
+            <h3 id="Tomat">Tomat</h3>
+            <p id="Tomat-description">
+              En perfekt grönsak att odla på balkongen eller i trädgården. Ger
+              riklig skörd under sommaren.
+            </p>
+          </main>
+
+          <footer class="card-footer">
+            <img
+              class="avatar-img"
+              src="/Assets/images/avatar_72_f.png"
+              alt="Avatar image of Anna Odlare"
+              width="200"
+              height="auto"
+            />
+            <div>
+              <strong class="avatar-name">Anna Odlare</strong>
+              <time
+                datetime="2024-12-05"
+                aria-label="Published on December 5, 2024"
+                >2024-12-05</time
+              >
+            </div>
+          </footer>
+        </article>
+
+        <article
+          class="card"
+          class="card"
+          aria-labelledby="Pelargon"
+          aria-describedby="Pelargon-description"
+        >
+          <header class="card-header">
+            <img
+              src="https://picsum.photos/id/17/500"
+              alt="Pelargon"
+              width="500"
+              height="auto"
+            />
+            <i class="icon-seedling-2 watermark" aria-hidden="true"></i>
+          </header>
+
+          <div class="chip-container" aria-label="Tags">
+            <span class="chips decorative" aria-label="Category: Dekorativ">
+              Dekorativ
+            </span>
+            <span class="chips colorful" aria-label="Category: Färgstark">
+              Färgstark
+            </span>
+            <span class="chips robust" aria-label="Category: Tålig">Tålig</span>
+            <span class="chips flower" aria-label="Category: Blommor"
+              >Blommor</span
+            >
+          </div>
+
+          <main class="flow">
+            <h3 id="Pelargon">Pelargon</h3>
+            <p id="Pelargon-description">
+              En vacker och lättskött blomma som trivs både inne och ute under
+              sommaren.
+            </p>
+          </main>
+
+          <footer class="card-footer">
+            <img
+              class="avatar-img"
+              src="/Assets/images/avatar_26_m.png"
+              alt="Avatar image of Blomsterkalle"
+              width="200"
+              height="auto"
+            />
+            <div>
+              <strong class="avatar-name">Blomsterkalle</strong>
+              <time
+                datetime="2024-12-05"
+                aria-label="Published on December 3, 2024"
+                >2024-12-03</time
+              >
+            </div>
+          </footer>
+        </article>
+
+        <!-- 
+        <article>
+          Kryddor Doftande Solälskande Basilika En fantastisk krydda för
+          pastarätter och sallader. Trivs bäst i ett soligt fönster. Krydd-Malin
+          2024-12-07
+        </article>
+
+        <article>
+          Snabbväxande Ätbart Grönska Sallad Sallad är en av de enklaste
+          grönsakerna att odla och ger snabba resultat för färska måltider.
+          Grönis 2024-12-06
+        </article>
+
+        <article>
+          Luftfuktande Grönska Dekorativ Ormbunke En klassisk växt som passar
+          perfekt i badrummet eller på skuggiga platser. Naturvännen 2024-12-08
+        </article> -->
+      </section>
+
+      <section class="banner-2 page-spacing">
+        <div class="max-width banner-wrapper">
+          <div class="icon-bg">
+            <i class="icon-seedling" aria-hidden="true"></i>
+          </div>
+          <div class="banner2-content flow">
+            <h2>Våra tidigare odlingar</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur ratione quia eos pariatur deserunt veritatis. Tenetur,
+              ipsum! Iusto delectus ipsam esse pariatur rerum eveniet nostrum,
+              dolor distinctio nam quaerat doloribus?
+            </p>
+
+            <a class="btn" href="#" aria-label="View planterade plantor"
+              >Planterade plantor</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-main page-spacing">
+      <div class="footer-content max-width">
+        <div class="footer-info flow">
+          <a
+            class="logo"
+            href="#"
+            aria-label="Go to the Planned Planthood homepage"
+          >
+            <i class="icon-logo" aria-hidden="true"></i>
+            <div>
+              <span>Planned</span>
+              <span>Planthood</span>
+            </div>
+          </a>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque,
+            veniam ducimus aut sint atque ullam alias perspiciatis fuga.
+            Consequuntur nesciunt ea corrupti aperiam fugit inventore ratione
+            earum. Iure, eius molestias?
+          </p>
+
+          <ul class="flow">
+            <li>
+              <i class="icon-phone" aria-hidden="true"></i>
+              <a
+                href="tel:020-1234567"
+                aria-label="Call Planned Plant on 020-1234567"
+              >
+                Telefon: 020-1234567
+              </a>
+            </li>
+            <li>
+              <i class="icon-email" aria-hidden="true"></i>
+              <a
+                href="mailto:info@plannedplant.com"
+                aria-label="Email Planned Plant at info@plannedplant.com"
+              >
+                info@plannedplant.com
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <ul class="footer-links flow">
+            <li>
+              <a
+                href="#"
+                aria-label="Go to the homepage"
+                title="Return to the homepage"
+                >Hem</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                aria-label="View our history"
+                title="Learn about our history"
+                >Historik</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                aria-label="Get useful tips"
+                title="Helpful gardening tips"
+                >Tips</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                aria-label="Contact us"
+                title="Reach more information about us"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
