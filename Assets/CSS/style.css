@@ -197,6 +197,7 @@ body {
       padding-inline: 1rem;
       text-decoration: none;
       transition: 200ms ease-in-out;
+      text-transform: uppercase;
     }
 
     li > a:hover {
@@ -409,7 +410,7 @@ body {
     .chips {
       text-transform: uppercase;
       color: var(--clr-neutral-100);
-      font-size: var(--fs-200);
+      font-size: var(--fs-100);
       font-weight: var(--fw-700);
       display: inline-flex;
       margin-bottom: 0.3em;
