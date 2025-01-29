@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Planthood-Icons";
-  src: url("./Assets/fonts/Planthood-Icons.eot?1qladf");
-  src: url("./Assets/fonts/Planthood-Icons.eot?1qladf#iefix")
+  src: url("/Assets/fonts/Planthood-Icons.eot?1qladf");
+  src: url("/Assets/fonts/Planthood-Icons.eot?1qladf#iefix")
       format("embedded-opentype"),
-    url("./Assets/fonts/Planthood-Icons.ttf?1qladf") format("truetype"),
-    url("./Assets/fonts/Planthood-Icons.woff?1qladf") format("woff"),
-    url("./Assets/fonts/Planthood-Icons.svg?1qladf#Planthood-Icons")
+    url("/Assets/fonts/Planthood-Icons.ttf?1qladf") format("truetype"),
+    url("/Assets/fonts/Planthood-Icons.woff?1qladf") format("woff"),
+    url("/Assets/fonts/Planthood-Icons.svg?1qladf#Planthood-Icons")
       format("svg");
   font-weight: normal;
   font-style: normal;
